@@ -1,5 +1,4 @@
 from settings import *
-
 from snake import Snake
 from apple import Apple
 import pygame
