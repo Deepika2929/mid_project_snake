@@ -5,7 +5,7 @@ from os.path import join
 pygame.init()
 info = pygame.display.Info()
 
-CELL_SIZE = 80
+CELL_SIZE = 40
 ROWS = int((info.current_h * 0.7) // CELL_SIZE)
 COLS = int((info.current_w * 0.7) // CELL_SIZE)
 WINDOW_WIDTH = COLS * CELL_SIZE
